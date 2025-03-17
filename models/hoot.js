@@ -36,4 +36,4 @@ const hootSchema = new mongoose.Schema(
 
   const Hoot = mongoose.model('Hoot', hootSchema);
 
-  modeule.exports = Hoot;
+  module.exports = Hoot;
